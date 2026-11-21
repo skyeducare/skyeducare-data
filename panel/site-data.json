@@ -138,8 +138,8 @@
  "about": {
   "directorName": "S.K. KATARIYA",
   "directorRole": "Director & Founder — SKY EDUCARE",
-  "quoteHi": "प्रिय विद्यार्थियों,\n\nहर विद्यार्थी अपने साथ एक सपना और परिवार की उम्मीदें लेकर आता है। उस सपने तक पहुँचने में उसका साथ देना हमारे लिए सौभाग्य की बात है।\n\nहमारा निरंतर लक्ष्य है कि हर समर्पित अभ्यर्थी को उचित शुल्क पर परीक्षा-केंद्रित, उच्च स्तरीय शिक्षा मिले। हमारा मानना है कि शिक्षक का सबसे बड़ा दायित्व कठिन विषय को सरल बनाना है, ताकि विद्यार्थी की मेहनत सही दिशा में लगे। इसी सोच के साथ हम सरल अध्ययन सामग्री, सारगर्भित कक्षाओं और आधुनिक तकनीक से हर विद्यार्थी की तैयारी आसान बनाने का प्रयास करते हैं।\n\nस्पष्ट अवधारणाएँ, विश्लेषणात्मक पद्धति और निरंतर अभ्यास ही सफलता की असली कुंजी हैं, और यही हमारे शिक्षण की नींव है।\n\nसफलता के साथ संस्कार भी उतने ही ज़रूरी हैं। हमारी कोशिश है कि यहाँ से निकलने वाला हर विद्यार्थी एक अच्छा अधिकारी होने के साथ-साथ एक ज़िम्मेदार नागरिक भी बने।\n\nआपके सपने को साकार करने की इस यात्रा में हम पूरी निष्ठा से आपके साथ हैं।\n\nSecure Your Dream Govt. Job With Us",
-  "quoteEn": "Dear Students,\n\nEvery student who walks through our doors carries a dream, and the hopes of a family. It is our privilege to walk alongside them on the path to that dream.\n\nOur continuous mission is to provide the highest standard of exam-oriented education to every dedicated aspirant, at an affordable fee. We believe a teacher's greatest responsibility is to make difficult subjects simple, so that every hour of a student's effort moves them in the right direction. With this belief, we strive to make preparation easier through clear study material, focused classes and the thoughtful use of modern technology.\n\nClear concepts, an analytical approach and consistent practice are the true keys to success, and these form the foundation of everything we teach.\n\nSuccess, however, is complete only when it comes with values. Our sincere effort is that every student who leaves us goes on to become not only a capable officer, but also a responsible citizen.\n\nOn this journey towards your dream, we stand beside you with complete dedication.\n\nSecure Your Dream Govt. Job With Us",
+  "quoteHi": "प्रिय विद्यार्थियों,\n\nहर विद्यार्थी अपने साथ एक सपना और परिवार की उम्मीदें लेकर आता है। उस सपने तक पहुँचने में उसका साथ देना हमारे लिए सौभाग्य की बात है।\n\n\"एक शिक्षक का सबसे बड़ा कार्य अपने छात्र के लिए अध्ययन को आसान बनाना है; क्योंकि शिक्षण की असली सफलता इसी में है कि सीखने की प्रक्रिया कितनी सहज हो पाती है।” इसी सोच के साथ हम सरल अध्ययन सामग्री, सारगर्भित कक्षाओं और आधुनिक तकनीक से हर विद्यार्थी की तैयारी आसान बनाने का प्रयास करते हैं।\n\nस्पष्ट अवधारणाएँ, विश्लेषणात्मक पद्धति और निरंतर अभ्यास ही सफलता की असली कुंजी हैं, और यही हमारे शिक्षण की नींव है।\n\nसफलता के साथ संस्कार भी उतने ही ज़रूरी हैं। हमारी कोशिश है कि यहाँ से निकलने वाला हर विद्यार्थी एक अच्छा अधिकारी होने के साथ-साथ एक ज़िम्मेदार नागरिक भी बने।\n\nआपके सपने को साकार करने की इस यात्रा में हम पूरी निष्ठा से आपके साथ हैं।\n\nSecure Your Dream Govt. Job With Us",
+  "quoteEn": "Dear Students,\n\nEvery student who walks through our doors carries a dream, and the hopes of a family. It is our privilege to walk alongside them on the path to that dream.\n\n\"A teacher's greatest duty is to make studying easier for their students, because the true success of teaching lies in how effortless the learning process becomes.\" With this philosophy, we strive to simplify every student's preparation through easy-to-understand study material, meaningful classes, and modern technology.\n\nClear concepts, an analytical approach and consistent practice are the true keys to success, and these form the foundation of everything we teach.\n\nSuccess, however, is complete only when it comes with values. Our sincere effort is that every student who leaves us goes on to become not only a capable officer, but also a responsible citizen.\n\nOn this journey towards your dream, we stand beside you with complete dedication.\n\nSecure Your Dream Govt. Job With Us",
   "helpline": "+91 9928549654",
   "whatsapp": "919928549654",
   "email": "skyeducare@gmail.com",
@@ -258,7 +258,7 @@
    "slug": "tests"
   },
   {
-   "name": "NOTES / BOOKS",
+   "name": "Panel Notes / PDF",
    "slug": "notes"
   }
  ],
@@ -288,7 +288,7 @@
    "link": "https://www.youtube.com/@skyeducare"
   }
  ],
- "localEditedAt": 1795285893248,
+ "localEditedAt": 1795286989609,
  "directorTile": {
   "name": "S.K. KATARIYA",
   "role": "Director & Founder — SKY EDUCARE",
@@ -304,5 +304,5 @@
   "fbBooks": "लेखक — शिक्षण विधियाँ एवं शिक्षा मनोविज्ञान | SKY EDUCARE",
   "fbPhoto": ""
  },
- "publishedAt": 1795285893248
+ "publishedAt": 1795286989609
 }
