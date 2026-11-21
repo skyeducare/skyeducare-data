@@ -1,0 +1,9 @@
+{
+  "_help": "यहाँ लिखे बदलाव हर अपडेट के बाद भी बने रहते हैं। courses: कोर्स code के हिसाब से कोई भी field बदलें (जैसे faculty, badge, categories)। hideCourses: इन code वाले कोर्स वेबसाइट पर न दिखें। courseOrderFirst: ये code सबसे ऊपर दिखें। videos: वीडियो id के हिसाब से field बदलें (जैसे courseCode)। hideVideos: ये वीडियो न दिखें। pinVideos: ये वीडियो सबसे ऊपर दिखें।",
+  "courses": {},
+  "hideCourses": [],
+  "courseOrderFirst": [],
+  "videos": {},
+  "hideVideos": [],
+  "pinVideos": []
+}

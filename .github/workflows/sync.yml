@@ -1,0 +1,52 @@
+name: Auto data sync (courses + YouTube)
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # GitHub में सबसे कम: हर 5 मिनट
+  workflow_dispatch: {}
+  push:
+    paths:
+      - overrides.json
+      - scripts/sync.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: data-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Sync courses and videos
+        run: python scripts/sync.py
+
+      - name: Keep schedule alive (GitHub 60 दिन बिना commit के schedule रोक देता है)
+        run: |
+          last=$(git log -1 --format=%ct)
+          now=$(date +%s)
+          if [ $(( (now - last) / 86400 )) -ge 30 ]; then date -u +%FT%TZ > data/heartbeat.txt; fi
+
+      - name: Save changes
+        run: |
+          git config user.name "skyeducare-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data
+          if git diff --cached --quiet; then
+            echo "कुछ नहीं बदला"
+          else
+            git commit -m "Auto update: $(date -u +%FT%TZ)"
+            git pull --rebase --autostash || true
+            git push
+          fi
