@@ -83,7 +83,7 @@
   }
  ],
  "announcement": {
-  "active": true,
+  "active": false,
   "badge": "🔥 NEW LIVE BATCH 2027",
   "text": "RPSC EO/RO, 1st & 2nd Grade English, Hindi & REET New Selection Batches Open! Admissions Active on Official App.",
   "buttonText": "Join Batch Now →",
@@ -288,7 +288,7 @@
    "link": "https://www.youtube.com/@skyeducare"
   }
  ],
- "localEditedAt": 1795282775204,
+ "localEditedAt": 1795282812215,
  "directorTile": {
   "name": "S.K. KATARIYA",
   "role": "Director & Founder — SKY EDUCARE",
@@ -304,5 +304,5 @@
   "fbBooks": "लेखक — शिक्षण विधियाँ एवं शिक्षा मनोविज्ञान | SKY EDUCARE",
   "fbPhoto": ""
  },
- "publishedAt": 1795282775204
+ "publishedAt": 1795282812215
 }
