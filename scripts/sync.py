@@ -432,8 +432,7 @@ def sync_blogs(old_blogs, courses):
             keep = dict(old)
             keep["title"] = b["title"]
             keep["publishedAt"] = b["publishedAt"]
-            if str(keep.get("courseCode")) not in course_codes:
-                keep["courseCode"], keep["courseTitle"] = b["courseCode"], b["courseTitle"]
+            keep["courseCode"], keep["courseTitle"] = b["courseCode"], b["courseTitle"]
             keep["faculty"] = b["faculty"]
             keep["type"] = b["type"]
             b = keep
@@ -444,10 +443,9 @@ def sync_blogs(old_blogs, courses):
     # पुराने वीडियो (जो RSS की 15 वाली सूची से बाहर हो गए) भी रखें, बशर्ते वे असली चैनल के थे
     for b in old_blogs:
         if b.get("id") not in ids and b.get("publishedAt"):
-            if str(b.get("courseCode")) not in course_codes:
-                c = best_course_for(b.get("title", ""), b.get("faculty"), courses)
-                if c:
-                    b = dict(b, courseCode=str(c["code"]), courseTitle=c["title"])
+            c = best_course_for(b.get("title", ""), b.get("faculty"), courses) if courses else None
+            if c:
+                b = dict(b, courseCode=str(c["code"]), courseTitle=c["title"])
             fresh.append(b)
             ids.add(b.get("id"))
     fresh.sort(key=lambda b: b.get("publishedAt") or "", reverse=True)
