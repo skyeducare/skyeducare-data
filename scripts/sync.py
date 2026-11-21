@@ -372,13 +372,24 @@ def fetch_youtube():
     return items
 
 
+def fetch_stream_ids():
+    """चैनल के Live टैब से लाइव क्लास वाले वीडियो की id (RSS में यह जानकारी नहीं होती)।"""
+    try:
+        html = http_get("https://www.youtube.com/channel/" + CHANNEL_ID + "/streams",
+                        {"Accept-Language": "en-US,en;q=0.9", "Cookie": "CONSENT=YES+1"}, tries=2).decode("utf-8", "ignore")
+        return set(re.findall(r'"videoId":"([A-Za-z0-9_-]{11})"', html))
+    except Exception as e:
+        log(f"(streams page not read: {e})")
+        return set()
+
+
 def build_blog(v, courses):
     title = v["title"]
     tl = title.lower()
     vtype = "recorded"
     if v.get("isShort") or "#shorts" in tl or "#short" in tl:
         vtype = "short"
-    elif "live" in tl or "मैराथन" in tl or "मराथन" in tl:
+    elif v.get("isLive") or "live" in tl or "मैराथन" in tl or "मराथन" in tl:
         vtype = "live"
     fac_key, category = None, "Competitive Exams"
     for words, key, cat in VIDEO_RULES:
@@ -417,6 +428,11 @@ def build_blog(v, courses):
 def sync_blogs(old_blogs, courses):
     vids = fetch_youtube()
     log(f"YouTube RSS: {len(vids)} videos")
+    live_ids = fetch_stream_ids()
+    log(f"Live-class ids found: {len(live_ids)}")
+    for v in vids:
+        if v["id"] in live_ids and not v.get("isShort"):
+            v["isLive"] = True
     if not vids:
         raise RuntimeError("YouTube RSS returned 0 videos")
     old_by_id = {b.get("id"): b for b in old_blogs}
