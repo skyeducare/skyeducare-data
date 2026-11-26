@@ -288,7 +288,7 @@
    "link": "https://www.youtube.com/@skyeducare"
   }
  ],
- "localEditedAt": 1795670250051,
+ "localEditedAt": 1795670274672,
  "directorTile": {
   "name": "S.K. KATARIYA",
   "role": "Director & Founder — SKY EDUCARE",
@@ -304,7 +304,7 @@
   "fbBooks": "लेखक — शिक्षण विधियाँ एवं शिक्षा मनोविज्ञान | SKY EDUCARE",
   "fbPhoto": ""
  },
- "publishedAt": 1795670250051,
+ "publishedAt": 1795670274672,
  "newLaunches": {
   "active": true,
   "eyebrow": "JUST DROPPED • 2027",
@@ -402,6 +402,30 @@
     "big2": "",
     "pill": "NEW 2027",
     "photo": "team-2-ashok.jpg?v=13",
+    "photos": []
+   },
+   {
+    "code": "46259",
+    "theme": "blue",
+    "ribbon": "RECORDED BATCH",
+    "live": false,
+    "kicker": "SKY EDUCARE",
+    "big1": "",
+    "big2": "NEW",
+    "pill": "NEW 2027",
+    "photo": "team-7-yashwardhan.jpg?v=13",
+    "photos": []
+   },
+   {
+    "code": "46271",
+    "theme": "blue",
+    "ribbon": "RECORDED BATCH",
+    "live": false,
+    "kicker": "SKY EDUCARE",
+    "big1": "REET",
+    "big2": "Level - 1",
+    "pill": "NEW 2027",
+    "photo": "team-7-yashwardhan.jpg?v=13",
     "photos": []
    }
   ]
