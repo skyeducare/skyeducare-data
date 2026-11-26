@@ -525,6 +525,23 @@ def sync_play_rating():
     return False
 
 
+
+def sync_site_stats():
+    """skyeducare.in के होमपेज से Active Students और Courses की असली गिनती पढ़ता है।"""
+    html = http_get("https://www.skyeducare.in/").decode("utf-8", "ignore")
+    st = re.search(r'>\s*([\d,]+)\s*</span>\s*<span[^>]*>\s*Active Students', html)
+    co = re.search(r'>\s*([\d,]+)\s*</span>\s*<span[^>]*>\s*Courses\s*<', html)
+    if not st:
+        raise RuntimeError("Active Students not found")
+    site = {"students": int(st.group(1).replace(",", "")), "courses": int(co.group(1).replace(",", "")) if co else None}
+    old = load_json(RATINGS_FILE, {})
+    if old.get("site") != site:
+        old["site"] = site
+        old["updatedAt"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        save_json(RATINGS_FILE, old)
+        log(f"Site stats: {site}")
+
+
 def main():
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     old_courses = load_json(COURSES_FILE, [])
@@ -560,6 +577,10 @@ def main():
         sync_play_rating()
     except Exception as e:  # रेटिंग न मिले तो बाकी सिंक चलता रहे
         log(f"!! Play rating sync failed: {e}")
+    try:
+        sync_site_stats()
+    except Exception as e:
+        log(f"!! Site stats sync failed: {e}")
 
     c1 = save_json(COURSES_FILE, courses)
     c2 = save_json(BLOGS_FILE, blogs)
