@@ -62,16 +62,6 @@
    "cta": "View Veterinary (AVFO) Courses →"
   },
   {
-   "id": 7,
-   "name": "Yashwardhan Shekhawat Sir",
-   "role": "Mathematics Expert",
-   "qual": "B.Tech",
-   "subject": "Mathematics, Arithmetic & Advance Maths for REET, LDC 2026, CET & RPSC Competitions.",
-   "photo": "team-7-yashwardhan.jpg?v=13",
-   "query": "Shekhawat",
-   "cta": "View Mathematics & LDC Courses →"
-  },
-  {
    "id": 8,
    "name": "Lokesh JS Jakhar",
    "role": "Head of Operations & Tech",
@@ -80,6 +70,16 @@
    "subject": "App & Course Operations, Digital Platform Infrastructure & Student Learning Support.",
    "cta": "App & Course Operations →",
    "query": "https://wa.me/919928549654?text=Hello%20Lokesh%20Sir"
+  },
+  {
+   "id": 7,
+   "name": "Yashwardhan Shekhawat Sir",
+   "role": "Mathematics Expert",
+   "qual": "B.Tech",
+   "subject": "Mathematics, Arithmetic & Advance Maths for REET, LDC 2026, CET & RPSC Competitions.",
+   "photo": "team-7-yashwardhan.jpg?v=13",
+   "query": "Shekhawat",
+   "cta": "View Mathematics & LDC Courses →"
   }
  ],
  "announcement": {
@@ -288,7 +288,7 @@
    "link": "https://www.youtube.com/@skyeducare"
   }
  ],
- "localEditedAt": 1795670805422,
+ "localEditedAt": 1795682307689,
  "directorTile": {
   "name": "S.K. KATARIYA",
   "role": "Director & Founder — SKY EDUCARE",
@@ -304,7 +304,7 @@
   "fbBooks": "लेखक — शिक्षण विधियाँ एवं शिक्षा मनोविज्ञान | SKY EDUCARE",
   "fbPhoto": ""
  },
- "publishedAt": 1795670805422,
+ "publishedAt": 1795682307689,
  "newLaunches": {
   "active": true,
   "eyebrow": "JUST DROPPED • 2027",
