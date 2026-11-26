@@ -502,6 +502,29 @@ def apply_overrides(courses, blogs, ov):
     return cs, bs
 
 
+RATINGS_FILE = os.path.join(DATA, "ratings.json")
+PLAY_URL = "https://play.google.com/store/apps/details?id=co.lynde.ezkzz&hl=en_IN&gl=IN"
+
+
+def sync_play_rating():
+    """Play Store से ऐप की असली रेटिंग, रिव्यू गिनती और डाउनलोड पढ़ता है (वेबसाइट के Testimonials हिस्से के लिए)।"""
+    html = http_get(PLAY_URL, {"Accept-Language": "en-IN,en;q=0.9"}).decode("utf-8", "ignore")
+    rv = re.search(r'"ratingValue":"?([\d.]+)', html)
+    rc = re.search(r'"ratingCount":"?(\d+)', html)
+    dl = re.search(r'>([\d,.]+[KMB]?\+)</div><div[^>]*>Downloads', html)
+    if not rv or not rc:
+        raise RuntimeError("Play Store rating not found")
+    play = {"rating": round(float(rv.group(1)), 1), "count": int(rc.group(1)), "downloads": dl.group(1) if dl else None}
+    old = load_json(RATINGS_FILE, {})
+    if old.get("play") != play:
+        old["play"] = play
+        old["updatedAt"] = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        save_json(RATINGS_FILE, old)
+        log(f"Play rating: {play}")
+        return True
+    return False
+
+
 def main():
     now = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     old_courses = load_json(COURSES_FILE, [])
@@ -532,6 +555,11 @@ def main():
     except Exception as e:
         errors.append(f"youtube: {e}")
         log(f"!! YouTube sync failed: {e}")
+
+    try:
+        sync_play_rating()
+    except Exception as e:  # रेटिंग न मिले तो बाकी सिंक चलता रहे
+        log(f"!! Play rating sync failed: {e}")
 
     c1 = save_json(COURSES_FILE, courses)
     c2 = save_json(BLOGS_FILE, blogs)
