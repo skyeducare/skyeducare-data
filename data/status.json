@@ -2,5 +2,7 @@
   "lastChange": "2026-11-26T23:56:55Z",
   "courses": 38,
   "videos": 16,
-  "errors": []
+  "errors": [
+    "youtube: HTTP Error 503: Service Unavailable"
+  ]
 }
