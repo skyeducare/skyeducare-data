@@ -183,6 +183,42 @@
   },
   {
     "id": 6,
+    "code": "843179",
+    "title": "Complete English Phonetics Course",
+    "badge": "RECORDED BATCH",
+    "headerClass": "header-rec",
+    "price": "₹499",
+    "originalPrice": "₹2,000",
+    "discount": "75% OFF",
+    "validity": "1 Year Validity",
+    "faculty": "Ashok Jangir Sir (NET - English, RPSC Lecturer)",
+    "learningStats": "43 Videos, 43 PDFs",
+    "categories": [
+      "all",
+      "english",
+      "recorded"
+    ],
+    "tags": [
+      "CLASSES",
+      "PDF NOTES",
+      "TEST SERIES"
+    ],
+    "shortDesc": "Unlock the Secrets of Perfect English Pronunciation!",
+    "rawDescription": "Unlock the Secrets of Perfect English Pronunciation!\n\nAre you struggling with how to pronounce English words correctly? Welcome to our \"Complete English Phonetics Masterclass\". This course is specifically designed for students and professionals who want to master the art of speaking English with clarity and confidence.\n\nअंग्रेजी के सही उच्चारण का राज जानें!\n\nक्या आप भी अंग्रेजी शब्दों के उच्चारण को लेकर अक्सर असमयंजस में रहते हैं? हमारे \"Complete English Phonetics Masterclass\" में आपका स्वागत है। यह कोर्स विशेष रूप से उन विद्यार्थियों के लिए तैयार किया गया है जो अंग्रेजी को सही और प्रभावशाली ढंग से बोलना चाहते हैं।\n\n\n📱 Platform Availability:\nAvailable only on Android and iOS mobile devices and tablets. Not currently available for PC or laptops.\n\n\nHelpline : 📞 9928549654\n\n🔒 Disclaimer:\nAll course content has been prepared with utmost care and expert input. However, the institute holds no responsibility for any unintentional error, factual inaccuracy, or technical glitch. For any corrections or suggestions, please contact our support team.",
+    "features": [
+      "Unlock the Secrets of Perfect English Pronunciation!",
+      "Are you struggling with how to pronounce English words correctly? Welcome to our \"Complete English Phonetics Masterclass\". This course is specifically designed for students and professionals who want to master the art of speaking English with clarity and confidence.",
+      "अंग्रेजी के सही उच्चारण का राज जानें!",
+      "क्या आप भी अंग्रेजी शब्दों के उच्चारण को लेकर अक्सर असमयंजस में रहते हैं? हमारे \"Complete English Phonetics Masterclass\" में आपका स्वागत है। यह कोर्स विशेष रूप से उन विद्यार्थियों के लिए तैयार किया गया है जो अंग्रेजी को सही और प्रभावशाली ढंग से बोलना चाहते हैं।",
+      "Platform Availability:",
+      "Available only on Android and iOS mobile devices and tablets. Not currently available for PC or laptops.",
+      "All course content has been prepared with utmost care and expert input. However, the institute holds no responsibility for any unintentional error, factual inaccuracy, or technical glitch. For any corrections or suggestions, please contact our support team."
+    ],
+    "autoAdded": "2026-11-28",
+    "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/142f8f13-2d21-4c73-a42b-8b8e2ad04b33.png"
+  },
+  {
+    "id": 7,
     "code": "801692",
     "title": "EO / RO (RPSC) Part- B",
     "badge": "RECORDED BATCH",
@@ -218,7 +254,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/dc55214d-d1b1-4150-820d-37bfdcd3bdf9.png"
   },
   {
-    "id": 7,
+    "id": 8,
     "code": "793424",
     "title": "New - EO / RO (RPSC)  Part _ A + B -Combo (Complete Course)",
     "badge": "RECORDED BATCH",
@@ -254,7 +290,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/3a57e0b8-dbd5-472d-8a06-7461fa073a8b.png"
   },
   {
-    "id": 8,
+    "id": 9,
     "code": "783981",
     "title": "LDC 2026 ✅ (Rajasthan) New Selection Batch",
     "badge": "RECORDED BATCH",
@@ -288,7 +324,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/cea05752-98ac-4d7b-abf1-067b09f297e2.png"
   },
   {
-    "id": 9,
+    "id": 10,
     "code": "778753",
     "title": "RPSC 1st Grade - भारतीय राजव्यवस्था (Indian Polity)",
     "badge": "RECORDED BATCH",
@@ -323,7 +359,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/31930511-1fbc-4a1f-b102-ec8d2dfcbad0.png"
   },
   {
-    "id": 10,
+    "id": 11,
     "code": "778737",
     "title": "RPSC 2nd Grade भारतीय संविधान, विदेश नीति एवं राजस्थान की राजनीति-प्रशासनिक प्रणाली",
     "badge": "RECORDED BATCH",
@@ -358,7 +394,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/68b24c3c-a1d5-4603-8017-798c036823f2.png"
   },
   {
-    "id": 11,
+    "id": 12,
     "code": "777015",
     "title": "भारत का संविधान & राजव्यवस्था (Indian Constitution & Polity)",
     "badge": "RECORDED BATCH",
@@ -392,7 +428,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/cf50af39-959c-40f2-8f7a-14ee6b6c28c3.png"
   },
   {
-    "id": 12,
+    "id": 13,
     "code": "776121",
     "title": "भारत और विश्व – करंट अफेयर्स (Current Affairs)",
     "badge": "RECORDED BATCH",
@@ -427,7 +463,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/3d39e9b6-93cd-4e52-98bc-9f3e2ffb76b4.png"
   },
   {
-    "id": 13,
+    "id": 14,
     "code": "776117",
     "title": "राजस्थान - करंट अफेयर्स (Rajasthan -Current Affairs)",
     "badge": "RECORDED BATCH",
@@ -462,7 +498,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/8633b48d-8526-417b-b388-3711b6165f5e.png"
   },
   {
-    "id": 14,
+    "id": 15,
     "code": "774105",
     "title": "हिंदी व्याकरण – Hindi Grammar (Hindi Vyakaran )",
     "badge": "RECORDED BATCH",
@@ -497,7 +533,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/350cbe49-1b0c-4867-af30-b7f0561383b7.png"
   },
   {
-    "id": 15,
+    "id": 16,
     "code": "756112",
     "title": "✅ Hindi (हिंदी)- 1st + 2nd +3r Grade (New Syllabus Based)",
     "badge": "RECORDED BATCH",
@@ -532,7 +568,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/29637314-c8a5-4dd1-884e-fc18d84fad46.png"
   },
   {
-    "id": 16,
+    "id": 17,
     "code": "731353",
     "title": "Recorded ✅ English 1st + 2nd + 3rd Grade (Combo) New Syllabus Based",
     "badge": "RECORDED BATCH",
@@ -569,7 +605,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/7da70dc0-ce4a-4137-b8aa-9fa2de7f32b5.png"
   },
   {
-    "id": 17,
+    "id": 18,
     "code": "343943",
     "title": "MP वर्ग -1 हिंदी ऑनलाइन रिकॉर्डेड कोर्स",
     "badge": "RECORDED BATCH",
@@ -604,7 +640,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/d92e9699-01a4-4ace-885e-9445254f818e.png"
   },
   {
-    "id": 18,
+    "id": 19,
     "code": "657639",
     "title": "✅ Test Series : RPSC 1st Grade English",
     "badge": "TEST SERIES",
@@ -641,7 +677,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/16cfc0e3-fb64-43ad-981e-ac4b26378ded.png"
   },
   {
-    "id": 19,
+    "id": 20,
     "code": "617585",
     "title": "✅ MP-AVFO (Veterinary)",
     "badge": "RECORDED BATCH",
@@ -676,7 +712,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/8a575207-156f-4579-abbd-e4dbefa2fc29.jpg"
   },
   {
-    "id": 20,
+    "id": 21,
     "code": "587365",
     "title": "हिंदी शिक्षण विधियाँ (SK Katariya) PDF - Hindi Teaching Methods PDF",
     "badge": "PANEL NOTES / PDF",
@@ -706,7 +742,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/3342fb41-425c-46f7-9c93-06ac6aab4dea.jpg"
   },
   {
-    "id": 21,
+    "id": 22,
     "code": "586619",
     "title": "✅ REET Mains (3rd Grade) English",
     "badge": "RECORDED BATCH",
@@ -743,7 +779,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/69ceec90-c7d7-4fbe-a574-4df667e486ae.png"
   },
   {
-    "id": 22,
+    "id": 23,
     "code": "581923",
     "title": "संस्कृत शिक्षण विधियाँ (PDF Only) Sanskrit Teaching Methods Book By SK Katariya",
     "badge": "PANEL NOTES / PDF",
@@ -777,7 +813,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/d6a4ee11-3d0e-4383-9fc3-10a98ca04d39.jpg"
   },
   {
-    "id": 23,
+    "id": 24,
     "code": "484289",
     "title": "संस्कृत शिक्षण विधियाँ / Sanskrit Teaching Methods Book By SK Katariya",
     "badge": "RECORDED BATCH",
@@ -811,7 +847,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/bd618484-be82-4cca-82fc-4e7b0d7bb2fa.jpg"
   },
   {
-    "id": 24,
+    "id": 25,
     "code": "347030",
     "title": "✅ AVFO  छत्तीसगढ़ ( Chhattisgarh AVFO)",
     "badge": "RECORDED BATCH",
@@ -846,7 +882,7 @@
     "imageUrl": "https://ali-cdn-wl-assets.classplus.co/production/single/ezkzz/c6360830-14ec-488a-9c59-1b71020bd178.jpg"
   },
   {
-    "id": 25,
+    "id": 26,
     "code": "127257",
     "title": "✅ 1st Grade HINDI Online Course",
     "badge": "RECORDED BATCH",
@@ -882,7 +918,7 @@
     "imageUrl": "https://ali-cdn-wl-assets.classplus.co/production/single/ezkzz/f58808b0-28ba-48d9-adc3-2eb85ca9a8f8.jpg"
   },
   {
-    "id": 26,
+    "id": 27,
     "code": "304345",
     "title": "RPSC 1st & 2nd Grade हिंदी LIVE COURSE",
     "badge": "LIVE BATCH",
@@ -918,7 +954,7 @@
     "imageUrl": "https://ali-cdn-wl-assets.classplus.co/production/single/kavya/4402fa8f-67f9-448c-b910-5799a011d7b8.jpeg"
   },
   {
-    "id": 27,
+    "id": 28,
     "code": "320620",
     "title": "Recorded ✅ ENGLISH - 1st Grade + 2nd Grade  (New Syllabus Based)",
     "badge": "RECORDED BATCH",
@@ -955,7 +991,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/faea8078-d37e-4fc1-8a63-1464e8a0ec28.png"
   },
   {
-    "id": 28,
+    "id": 29,
     "code": "320039",
     "title": "Recored ✅  English 2nd Grade (New Syllabus Based Course)",
     "badge": "RECORDED BATCH",
@@ -991,7 +1027,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/c0fa9c41-1434-4744-b7b2-5255fafdf8d8.png"
   },
   {
-    "id": 29,
+    "id": 30,
     "code": "320030",
     "title": "Recoreded ✅  English (1st Grade) School Lecturer (New Syllabus Based)",
     "badge": "RECORDED BATCH",
@@ -1027,7 +1063,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/cb02e76c-d355-4cbc-b3cd-f1b968874e00.png"
   },
   {
-    "id": 30,
+    "id": 31,
     "code": "281280",
     "title": "REET 2025 शिक्षण विधियाँ PDF (Hindi + Sanskrit+ SST) Teaching Methods PDF",
     "badge": "PANEL NOTES / PDF",
@@ -1061,7 +1097,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/566a8a6c-4613-426d-8ee6-bb354c0ab5e2.jpg"
   },
   {
-    "id": 31,
+    "id": 32,
     "code": "266191",
     "title": "✅ UP - PGT / TGT (प्रवक्ता / स्नातक)  Hindi  2026",
     "badge": "RECORDED BATCH",
@@ -1094,7 +1130,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/3d8f0d1c-5864-46dc-b0a0-e9e93f14bdc7.jpg"
   },
   {
-    "id": 32,
+    "id": 33,
     "code": "151474",
     "title": "✅ Hindi (हिंदी)- 1st + 2nd Grade (New Syllabus Based)",
     "badge": "RECORDED BATCH",
@@ -1130,7 +1166,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/78466ffd-d5dc-4174-9160-dc42e5851e32.png"
   },
   {
-    "id": 33,
+    "id": 34,
     "code": "150484",
     "title": "✅  2nd Grade Hindi ( हिन्दी द्वितीय पत्र ) New Syllabus Based",
     "badge": "RECORDED BATCH",
@@ -1166,7 +1202,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/3726b990-f4c7-4aab-bc6e-57159e55d854.png"
   },
   {
-    "id": 34,
+    "id": 35,
     "code": "148797",
     "title": "✅ RPSC 1st Grade Hindi (सम्पूर्ण हिंदी ) New Syllabus Based Course",
     "badge": "RECORDED BATCH",
@@ -1202,7 +1238,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/3ff85a27-5dda-4aea-ac72-712f8b64df51.png"
   },
   {
-    "id": 35,
+    "id": 36,
     "code": "143243",
     "title": "New ✅ 1st Grade (1st Paper-GK) Complete",
     "badge": "RECORDED BATCH",
@@ -1238,7 +1274,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/8f63f3f7-a5f2-4b60-93c0-3fb2d606e6c3.jpg"
   },
   {
-    "id": 36,
+    "id": 37,
     "code": "143236",
     "title": "New ✅ 2nd Grade ( GK)",
     "badge": "RECORDED BATCH",
@@ -1270,7 +1306,7 @@
     "imageUrl": "https://ali-cdn-wl-assets.classplus.co/production/single/ezkzz/c5fab163-904a-46a3-ada3-d1f8e555e6bf.jpg"
   },
   {
-    "id": 37,
+    "id": 38,
     "code": "46271",
     "title": "REET  (Level - 1) 2027",
     "badge": "RECORDED BATCH",
@@ -1306,7 +1342,7 @@
     "imageUrl": "https://cdn-wl-assets.classplus.co/production/single/ezkzz/e14e75bf-cb49-459a-a7da-a55c5c04950d.jpg"
   },
   {
-    "id": 38,
+    "id": 39,
     "code": "46259",
     "title": "(NEW) REET (पात्रता परीक्षा) 2027 : Level-2 _ Science & Math",
     "badge": "RECORDED BATCH",
