@@ -288,7 +288,7 @@
    "link": "https://www.youtube.com/@skyeducare"
   }
  ],
- "localEditedAt": 1795682318410,
+ "localEditedAt": 1795862196845,
  "directorTile": {
   "name": "S.K. KATARIYA",
   "role": "Director & Founder — SKY EDUCARE",
@@ -304,7 +304,7 @@
   "fbBooks": "लेखक — शिक्षण विधियाँ एवं शिक्षा मनोविज्ञान | SKY EDUCARE",
   "fbPhoto": ""
  },
- "publishedAt": 1795682318410,
+ "publishedAt": 1795862196845,
  "newLaunches": {
   "active": true,
   "eyebrow": "JUST DROPPED • 2027",
@@ -427,6 +427,154 @@
     "pill": "NEW 2027",
     "photo": "team-7-yashwardhan.jpg?v=13",
     "photos": []
+   }
+  ]
+ },
+ "successStories": {
+  "active": true,
+  "eyebrow": "🏆 RESULTS THAT SPEAK",
+  "title": "Our",
+  "accent": "Success Stories",
+  "sub": "Real students. Real ranks. Real journeys from SKY EDUCARE classrooms to government lecturer posts.",
+  "students": [
+   {
+    "name": "हरीश कुमार",
+    "rank": "43",
+    "roll": "1219591",
+    "post": "RPSC 1st Grade Lecturer (English)",
+    "photo": "success/harish-kumar.jpg",
+    "poster": "success/harish-kumar-poster.jpg"
+   },
+   {
+    "name": "परस राम",
+    "rank": "88",
+    "roll": "1052881",
+    "post": "RPSC 1st Grade Lecturer (English)",
+    "photo": "success/paras-ram.jpg",
+    "poster": "success/paras-ram-poster.jpg"
+   },
+   {
+    "name": "मनोज कुमार योगी",
+    "rank": "116",
+    "roll": "1180032",
+    "post": "RPSC 1st Grade Lecturer (English)",
+    "photo": "success/manoj-kumar-yogi.jpg"
+   }
+  ],
+  "podcasts": [
+   {
+    "yt": "alCXsGd3nS0",
+    "title": "बस कंडक्टर से 1st ग्रेड व्याख्याता तक: 7th रैंक की प्रेरणादायक यात्रा",
+    "guest": "Virendra Singh • RPSC 1st Grade English Lecturer"
+   },
+   {
+    "yt": "ZvAY3fc8DVE",
+    "title": "एक सैनिक से शिक्षक की कहानी: अनोखी राह, अनोखी कहानी",
+    "guest": "Virendra Choudhary • RPSC 1st Grade English Lecturer"
+   },
+   {
+    "yt": "TQGmaEEJYyM",
+    "title": "एक साथ दो-दो भर्तियों में सिलेक्शन: ऐसे बना मैं 1st ग्रेड लेक्चरर",
+    "guest": "Vikram Meena • with Ashok Jangir Sir"
+   },
+   {
+    "yt": "_oNhNKw1tAo",
+    "title": "RPSC 1st Grade English Result 2026 | Top Rank | Ashok Jangir",
+    "guest": ""
+   }
+  ],
+  "ratings": {
+   "google": {
+    "rating": 5,
+    "count": 136,
+    "link": "https://maps.google.com/?cid=1247854601422723353"
+   },
+   "play": {
+    "rating": 5,
+    "count": 609,
+    "downloads": "50K+",
+    "link": "https://play.google.com/store/apps/details?id=co.lynde.ezkzz&showAllReviews=true"
+   }
+  },
+  "reviews": [
+   {
+    "name": "Neetu",
+    "src": "play",
+    "date": "Nov 2025",
+    "text": "Excellent app which provide a quality content in reasonable price. I had studied for just one month with the course I had purchased and I got provisional selection in RPSC school lecturer exam-2024. Thank you sir",
+    "hl": true
+   },
+   {
+    "name": "Khushi Yadav",
+    "src": "google",
+    "date": "2026",
+    "text": "The teacher makes complex topics look so easy, even for beginners. Sky Educare is the best coaching in Rajasthan."
+   },
+   {
+    "name": "Rakesh Joshi",
+    "src": "play",
+    "date": "May 2026",
+    "text": "Really your content is unique. I feel fortunate myself that I have selected this platform to make my dream of govt job come true. If the candidate is serious for his career, he can not ignore this platform. I believe in Sky Educare. I love Sky Educare."
+   },
+   {
+    "name": "Sumer Dan Charan",
+    "src": "play",
+    "date": "Apr 2026",
+    "text": "Best platform for RPSC English teacher exams. Very reliable fee structure and the way of teaching by respected Ashok Jangid sir is very effective. Thanks a lot to team of Sky Educare for providing such a great study material with a nominal fee 🙏"
+   },
+   {
+    "name": "Ram Joshi",
+    "src": "google",
+    "date": "Local Guide",
+    "text": "A superb location, an ideal place, a classy interior and intellectuals inside. SKY EDUCARE and Mr. S.K. KATARIYA provide superb guidance and study material for competition exams. A dedicated institute for your selection."
+   },
+   {
+    "name": "Dileep Kumar",
+    "src": "play",
+    "date": "Feb 2026",
+    "text": "Excellent experience with Ashok Jangir sir and good explanation. Sir has not just taught English literature but has settled it in every pore of my body. I learnt English from many teachers but none like Sir."
+   },
+   {
+    "name": "Riya Singh",
+    "src": "play",
+    "date": "Jan 2026",
+    "text": "Best app to learn literature for anyone... the way they teach with pictures and with a lot of descriptions... best app for literature. Thank you sir, you are best 🙏"
+   },
+   {
+    "name": "Shivani Kumari",
+    "src": "web",
+    "date": "skyeducare.in",
+    "text": "Sky Educare is an amazing institute. The teachers here are supportive, listening and making every concept understood with such easy methods you cannot find anywhere."
+   },
+   {
+    "name": "Sapna Shekhawat",
+    "src": "play",
+    "date": "Jan 2026",
+    "text": "Wonderful and detailed explanation of literature as well as grammar topics with exceptional content."
+   },
+   {
+    "name": "Rudra Pratap Singh",
+    "src": "google",
+    "date": "Google review",
+    "text": "The Sky Educare institute is very good to do study. The student experience in this institute is superb 🙌🏻"
+   },
+   {
+    "name": "Sukhdev Singh",
+    "src": "play",
+    "date": "Jan 2026",
+    "text": "Great teaching style 👍 The art of presenting the subject matter with the help of pictures makes you unique 👍👍"
+   },
+   {
+    "name": "Priyanka Jangir",
+    "src": "play",
+    "date": "Jan 2026",
+    "text": "Your online English classes are very helpful and easy to understand. Thank you so much, sir, for your support and efforts."
+   },
+   {
+    "name": "Pankaj Saini",
+    "src": "google",
+    "date": "Google review",
+    "text": "Good and very experienced, Sky Educare is a golden star in Rajasthan 👍👍"
    }
   ]
  }
